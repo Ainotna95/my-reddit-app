@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.post-border {
+  border-color: rgb(184, 183, 183);
+  border-style: solid;
+  border-radius: 1rem;
+  border-width: 0.15rem;
+  margin: 0 40rem 0 40rem;
+  padding: 15rem
+  
+
+}
