@@ -1,8 +1,10 @@
 import React from "react"
+import { useSelector } from "react-redux"
+import { selectPosts } from "../post/postsSlice"
 
-//add useSelector to make code work?
+//check code works
 export default function Header() {
-
+    const posts = useSelector(selectPosts)
   return (
     <>
         <header>
@@ -10,10 +12,10 @@ export default function Header() {
             type="text" 
             name="title" 
             placeholder="What're you thinking about?"
-            value={title}
+            value={posts.title}
             />
         </header>
-    </> 
+    </>
     )
     
 }
