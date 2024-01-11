@@ -1,10 +1,11 @@
 import React from "react"
+import { API_ROOT } from "../../../api/reddit"
 
 export default function Post () {
     
     return (
         <div>
-            <img/>
+            {API_ROOT}
         </div>
     )
 }

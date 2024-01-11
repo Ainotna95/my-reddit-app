@@ -1,5 +1,5 @@
 import { configureStore } from "@reduxjs/toolkit"
-import postReducer from "./features/post/postsSlice"
+import postReducer from "./features/post/redditSlice"
 
 //useDispatch dispatches an action inside a component
 //useSelector selects a piece of state from the store
