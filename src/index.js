@@ -7,6 +7,7 @@ import { store } from "./app/store";
 
 import reportWebVitals from './reportWebVitals';
 
+//connecting Redux to React using the <Provider> component
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
